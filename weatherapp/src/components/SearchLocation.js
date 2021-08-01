@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { fetchWeatherAndLocation } from '../actions';
 
 const SearchLocation = ({ fetchWeatherAndLocation }) => {
-  const [input, setInput] = useState('');
+  const [input, setInput] = useState("");
   const onSearchChange = (e) => {
     setInput(e.target.value);
   };

@@ -15,7 +15,7 @@ import { kelvinToCelsius, kelvinToFahrenheit } from '../helpers';
 
 const Weather = ({ weather, location, fetchWeatherAndLocation, tempScale }) => {
   useEffect(() => {
-    fetchWeatherAndLocation('London');
+    fetchWeatherAndLocation('Delhi');
   }, [fetchWeatherAndLocation]);
 
   const temperature = (temp) => {
